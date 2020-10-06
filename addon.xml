@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.lambda_beta" name="Lambda Beta Add-ons" version="0.0.1" provider-name="lambda-isel">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository">
+    <checksum>https://raw.githubusercontent.com/lambda-isel/addons/beta/addons.xml.md5</checksum>
+    <datadir zip="true">https://raw.githubusercontent.com/lambda-isel/addons/beta/</datadir>
+    <info>https://raw.githubusercontent.com/lambda-isel/addons/beta/addons.xml</info>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Lambda Beta Add-ons</summary>
+    <description lang="en_GB">Lambda Beta Add-ons</description>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <forum>https://github.com/lambda-isel/repository.lambda/issues</forum>
+    <website>https://github.com/lambda-isel/repository.lambda</website>
+    <source>https://github.com/lambda-isel/repository.lambda</source>
+    <news>https://github.com/lambda-isel/repository.lambda/commits</news>
+  </extension>
+</addon>
